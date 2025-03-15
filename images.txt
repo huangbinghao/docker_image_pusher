@@ -2,6 +2,6 @@ nginx
 #支持私库
 k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
 xhofe/alist:latest
---platform=linux/arm64 redis
+--platform=linux/arm64 redis:6.2-alpine 
 --platform=linux/arm64 tensorchord/pgvecto-rs:pg14-v0.2.0
 #支持指定架构
